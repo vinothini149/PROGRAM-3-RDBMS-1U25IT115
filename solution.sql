@@ -1,5 +1,5 @@
-CREATE DATABASE schoolDB;
-USE schoolDB;
+CREATE DATABASE collegeDB;
+USE collegeDB;
 CREATE TABLE department(
   studentID VARCHAR(5)PRIMARY KEY,
   studentName VARCHAR(10)NOT NULL,
@@ -7,6 +7,7 @@ CREATE TABLE department(
   gender VARCHAR(10)NOT NULL
 );
 desc department;
+
 ALTER TABLE student
 ADD(
   Email VARCHAR(30)
