@@ -1,7 +1,7 @@
 CREATE DATABASE schoolDB;
 USE schoolDB;
-CREATE TABLE department (
-  studentID VARCHAR(5) PRIMARY KEY,
+CREATE TABLE department(
+  studentID VARCHAR(5)PRIMARY KEY,
   studentName VARCHAR(10)NOT NULL,
   DOB date NOT NULL,
   gender VARCHAR(10)NOT NULL
