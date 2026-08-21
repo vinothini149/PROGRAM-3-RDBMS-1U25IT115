@@ -5,7 +5,7 @@ CREATE TABLE department(
   studentName VARCHAR(10)NOT NULL,
   DOB date NOT NULL,
   gender VARCHAR(10)NOT NULL
-);
+  );
 desc department;
 
 ALTER TABLE student
